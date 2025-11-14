@@ -1,3 +1,5 @@
+%By [taourirt lamri]Dr_lecter
+% 14/11/2025 
 %inverted pundulum 
 % the output will be the displacement of carts and the angel in pundulum  
 function dx = pondule(t, x, F)
@@ -24,3 +26,4 @@ function dx = pondule(t, x, F)
 
     dx = [Xd; Xdd; thd; thdd];
 end
+
